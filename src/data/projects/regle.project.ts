@@ -4,9 +4,9 @@ import { Project, ProjectContext, ProjectType } from '@models';
 export const regleProject: Project = {
   title: 'regle',
   picture:
-    'https://raw.githubusercontent.com/victorgarciaesgi/regle/refs/heads/main/.github/images/regle-github-banner.png',
+    'https://github.com/victorgarciaesgi/regle/blob/main/.github/images/regle-github-banner.png?raw=true',
   placeholder:
-    'https://raw.githubusercontent.com/victorgarciaesgi/regle/refs/heads/main/.github/images/regle-github-banner.png',
+    'https://github.com/victorgarciaesgi/regle/blob/main/.github/images/regle-github-banner.png?raw=true',
   slogan: '📏 Typescript-first model-based form validation library for Vue 3',
   description: `Regle (French word for "rule") is a Typescript-first form validation library made for Vue 3.
 I'm a lover and long-time user of Vuelidate API, so Regle's is greatly inspired by it.
