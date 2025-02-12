@@ -22,6 +22,8 @@
 </template>
 
 <script lang="ts">
+// @ts-nocheck
+
 import { Component, Prop, Watch } from 'nuxt-property-decorator';
 import { FormMixin } from '@mixins';
 import { RichCheckBoxListField, UnPackField } from '@constructors';

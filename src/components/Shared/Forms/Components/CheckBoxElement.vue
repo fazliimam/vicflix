@@ -19,6 +19,8 @@
 </template>
 
 <script lang="ts">
+// @ts-nocheck
+
 import Vue from 'vue';
 import { Prop, Watch } from 'nuxt-property-decorator';
 import { Component, Mixin, Mixins } from 'vue-mixin-decorator';

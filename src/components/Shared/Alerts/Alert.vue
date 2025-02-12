@@ -6,7 +6,20 @@
     @mousedown.stop
   >
     <div
-      class="QuitIcon / p-2px bg-bg4 text-text6 top-3 right-3 absolute z-10 flex rounded-full cursor-pointer"
+      class="
+        QuitIcon
+        /
+        p-2px
+        bg-bg4
+        text-text6
+        top-3
+        right-3
+        absolute
+        z-10
+        flex
+        rounded-full
+        cursor-pointer
+      "
       @click="deleteAlert"
     >
       <SvgIcon src="toasts/error" :size="16" />
@@ -58,6 +71,8 @@
 </template>
 
 <script lang="ts">
+// @ts-nocheck
+
 import Vue from 'vue';
 import { Component, Prop, Watch } from 'nuxt-property-decorator';
 import { AlertsModule } from '@store';

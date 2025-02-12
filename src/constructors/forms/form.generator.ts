@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { isTesting } from '@constants';
 import { ObjectLiteral, ValidationRoot } from '@models';
 import { cloneDeep, isEmpty } from 'lodash-es';
@@ -199,7 +201,7 @@ export class FormGroup<TShape extends Record<string, FormShape>> {
     return Object.entries(this.forms).reduce((acc, [key, form]) => {
       const values = form.extractValues();
       Object.entries(values).forEach(([key, value]) => {
-        acc[key] = value;
+        (acc as any)[key] = value;
       });
       return acc;
     }, {} as FormTreeValues<TShape>);

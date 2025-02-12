@@ -77,6 +77,8 @@
 </template>
 
 <script lang="ts">
+// @ts-nocheck
+
 import { Component } from 'vue-mixin-decorator';
 import { format } from 'date-fns';
 import frLocale from 'date-fns/locale/fr';

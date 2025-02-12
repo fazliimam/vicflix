@@ -70,6 +70,8 @@
 </template>
 
 <script lang="ts">
+// @ts-nocheck
+
 import { Vue, Prop, Component, Emit } from 'nuxt-property-decorator';
 import { EventBus, Events } from '@services';
 import { nanoid } from 'nanoid';

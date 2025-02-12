@@ -1,5 +1,4 @@
 import { AlertsModule } from '@store';
-import { FormStructure } from 'constructors/forms';
 import { nanoid } from 'nanoid';
 import {
   DefaultActionArgs,
@@ -53,10 +52,10 @@ export const actionsComposer = {
 
 // Alert ---------------------------------------------------------------
 
-export function createAlert<TForm extends FormStructure = never, TEdit extends boolean = never>({
+export function createAlert<TEdit extends boolean = never>({
   actions,
   ...rest
-}: DefaultAlertArgs<TForm, TEdit>): AlertReturnType {
+}: DefaultAlertArgs<TEdit>): AlertReturnType {
   const id = nanoid(6);
 
   let resolver: ((arg: boolean) => void) | null = null;
@@ -104,10 +103,7 @@ export function createConfirmAlert(args: ConfirmAlertArgs) {
   });
 }
 
-export function createFormAlert<
-  TForm extends FormStructure = never,
-  TEditMode extends boolean = never
->(args: FormAlertArgs<TForm, TEditMode>) {
+export function createFormAlert<TEditMode extends boolean = never>(args: FormAlertArgs<TEditMode>) {
   return createAlert({
     ...args,
     type: AlertType.Confirm,

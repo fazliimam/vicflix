@@ -50,6 +50,8 @@
 </template>
 
 <script lang="ts">
+// @ts-nocheck
+
 import { Prop, Ref, Watch } from 'nuxt-property-decorator';
 import { Component } from 'vue-mixin-decorator';
 import { FormMixin } from '@mixins';

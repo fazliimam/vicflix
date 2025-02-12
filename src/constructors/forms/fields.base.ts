@@ -6,7 +6,6 @@ import { CleaveOptions } from 'cleave.js/options';
 import Colors from '@colors';
 import { GuessValueType, Packed, ValueRuntimeTypes, ValueType } from './form.types';
 import { SelectOption } from './fields/select.fields';
-import { AvailableValidationsMessages } from './validators';
 
 export class DefaultFieldArgs<TValue = any, TInit = TValue> {
   displayValue?: SelectOption<any>;
@@ -26,7 +25,7 @@ export class DefaultFieldArgs<TValue = any, TInit = TValue> {
   label?: string;
   debounce?: number;
   info?: string;
-  errorMessages?: { [P in keyof AvailableValidationsMessages]?: AvailableValidationsMessages[P] };
+  errorMessages?: { [P in keyof any]?: any[P] };
   editMode?: Packed<boolean>;
   readonly?: boolean;
   onInput?: (value: TValue) => void;

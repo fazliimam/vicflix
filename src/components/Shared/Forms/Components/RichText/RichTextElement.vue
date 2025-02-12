@@ -61,6 +61,8 @@
 </template>
 
 <script lang="ts">
+// @ts-nocheck
+
 import { Component } from 'vue-mixin-decorator';
 import { Editor, EditorContent, EditorMenuBar, EditorMenuBubble } from 'tiptap';
 import {

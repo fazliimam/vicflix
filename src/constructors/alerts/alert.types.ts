@@ -1,6 +1,5 @@
 import { ButtonTheme } from '@models';
 import { RawLocation } from 'vue-router';
-import { FormShape, FormStructure, PureTree } from '../forms';
 import { actionsComposer } from './alert.constructor';
 
 export enum AlertType {
@@ -12,20 +11,15 @@ export enum AlertType {
   'Form' = 'form',
 }
 
-interface AlertCommons<TForm extends FormStructure = never, TEditMode extends boolean = boolean> {
+interface AlertCommons<TEditMode extends boolean = boolean> {
   type: AlertType;
   title: string;
   description?: string;
   strict?: boolean;
   onClose?: () => void | boolean;
-  form?: FormShape<TForm>;
-  onConfirm?: (...data: TForm extends never ? [] : [PureTree<TForm, TEditMode>]) => void | boolean;
 }
 
-export type AlertRoot<
-  TForm extends FormStructure = never,
-  TEditMode extends boolean = boolean
-> = AlertCommons & {
+export type AlertRoot<TEditMode extends boolean = boolean> = AlertCommons & {
   actions: ActionRoot[];
   id: string;
 };
@@ -36,20 +30,17 @@ export type AlertReturnType = {
 
 // Types of Alerts ---------------------
 
-export type DefaultAlertArgs<
-  TForm extends FormStructure = never,
-  TEditMode extends boolean = never
-> = AlertCommons & {
+export type DefaultAlertArgs<TEditMode extends boolean = never> = AlertCommons & {
   actions: (actions: typeof actionsComposer) => ActionRoot[];
 };
 
 export type SuccessAlertArgs = Omit<DefaultAlertArgs, 'type' | 'form'>;
 export type WarningAlertArgs = SuccessAlertArgs;
 export type ConfirmAlertArgs = SuccessAlertArgs;
-export type FormAlertArgs<
-  TForm extends FormStructure = never,
-  TEditMode extends boolean = never
-> = Omit<DefaultAlertArgs<TForm, TEditMode>, 'type'>;
+export type FormAlertArgs<TEditMode extends boolean = never> = Omit<
+  DefaultAlertArgs<TEditMode>,
+  'type'
+>;
 
 // Actions -----------------------------------------------------------
 

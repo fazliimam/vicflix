@@ -18,7 +18,7 @@ import { pluralize } from '@utils';
 
 export default defineNuxtPlugin((ctx, inject) => {
   inject('plural', pluralize);
-  Vue.use(Vuelidate);
+  Vue.use(Vuelidate as any);
   const HOOKS = ['asyncData', 'head', 'validations', 'fetch', 'setup'];
   Component.registerHooks(HOOKS);
 

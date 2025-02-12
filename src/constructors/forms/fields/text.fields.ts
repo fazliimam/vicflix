@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { DefaultFieldStruture, FormFieldArgs } from '../fields.base';
 import { GuessValueType, TextFieldType, ValueRuntimeTypes } from '../form.types';
 

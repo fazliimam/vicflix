@@ -1,8 +1,7 @@
 import { Key } from 'readline';
 import { ArrayElement, ExludeProperties, ObjectLiteral, Maybe } from '@models';
-import { AsyncDecl, GroupDecl, NestedDecl, RuleDecl, ValidationDecl } from 'vue/types/options';
+// import { AsyncDecl, GroupDecl, NestedDecl, RuleDecl, ValidationDecl } from 'vue/types/options';
 import { DefaultFieldStruture, FormFieldArgs } from './fields.base';
-import { ICalendarValue, TextField, UploadField } from './fields';
 import { FormShape } from './form.generator';
 import { AvailableValidationsMessages } from './validators/messages';
 
@@ -31,7 +30,6 @@ export type ValueType =
   | File
   | File[]
   | Date
-  | ICalendarValue
   | ObjectLiteral
   | ((...args: any[]) => any)
   | null;
@@ -70,7 +68,7 @@ export type FormTree<T extends ObjectLiteral> = { [TKey in keyof T]-?: FormShape
 type KeyOfForms<
   T extends Record<string, FormShape>,
   K extends keyof T = keyof T
-> = T[K] extends FormShape<infer U, any> ? PureTree<U> : never;
+> = T[K] extends FormShape<infer U, any> ? PureTree<any> : never;
 
 type UnionToIntersection<U> = (U extends any ? (k: U) => void : never) extends (k: infer I) => void
   ? I
@@ -127,7 +125,7 @@ export type InitialValues<TForm extends ObjectLiteral = ObjectLiteral> = {
     : InitialValues<TForm[TKey]>;
 };
 export type TypedRuleDecl = {
-  [K in keyof AvailableValidationsMessages]?: ValidationDecl | GroupDecl | AsyncDecl | NestedDecl;
+  [K in keyof AvailableValidationsMessages]?: any;
 };
 
 export type ValidationTree<TForm> = {

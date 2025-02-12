@@ -30,7 +30,7 @@ const config: NuxtConfig = {
   },
   tailwindcss: {
     cssPath: '~/styles/tailwind.css',
-    configPath: '~~/tailwind.config.js',
+    configPath: '~~/tailwind.config.cjs',
     viewer: false,
   },
   server: {

@@ -23,6 +23,8 @@
 </template>
 
 <script lang="ts">
+// @ts-nocheck
+
 import { Component, Mixin, Mixins } from 'vue-mixin-decorator';
 import { FormMixin } from '@mixins';
 

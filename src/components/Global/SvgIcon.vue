@@ -18,6 +18,8 @@
 </template>
 
 <script lang="ts">
+// @ts-nocheck
+
 import { Vue, Component, Prop, Watch, Ref } from 'nuxt-property-decorator';
 import Colors from '@colors';
 

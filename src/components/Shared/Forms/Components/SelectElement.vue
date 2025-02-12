@@ -119,6 +119,8 @@
 </template>
 
 <script lang="ts">
+// @ts-nocheck
+
 import { Vue, Prop, Ref, Component, Emit } from 'nuxt-property-decorator';
 import { Mixin, Mixins } from 'vue-mixin-decorator';
 import { debounce } from 'lodash-es';

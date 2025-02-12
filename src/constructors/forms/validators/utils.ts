@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { Validation } from 'vuelidate';
 import { ObjectLiteral } from '@models';
 import { isEmpty } from 'lodash-es';

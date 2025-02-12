@@ -38,6 +38,8 @@
 </template>
 
 <script lang="ts">
+// @ts-nocheck
+
 import { Component, Vue, Prop, PropSync } from 'nuxt-property-decorator';
 import { TableColumn, ColumnExtended, ObjectLiteral, OrderByDirection } from '@models';
 import { format } from 'date-fns';

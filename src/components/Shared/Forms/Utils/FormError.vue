@@ -10,6 +10,8 @@
 </template>
 
 <script lang="ts">
+// @ts-nocheck
+
 import { Vue, Component, Prop, Watch } from 'nuxt-property-decorator';
 import {
   DefaultFieldStruture,

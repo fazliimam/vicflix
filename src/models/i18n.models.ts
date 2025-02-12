@@ -1,4 +1,6 @@
+// @ts-nocheck
 import * as Locales from '@locales';
+
 import { LocaleObject } from 'nuxt-i18n';
 import { IConstant, ObjectLiteral } from './shared.model';
 

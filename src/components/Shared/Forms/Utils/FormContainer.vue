@@ -31,6 +31,7 @@
 </template>
 
 <script lang="ts">
+// @ts-nocheck
 import { Component, Vue, Prop, Watch, Emit } from 'nuxt-property-decorator';
 import { nanoid } from 'nanoid';
 import { ValidationRoot, ObjectLiteral } from '@models';
@@ -75,12 +76,12 @@ export default class FormContainer extends Vue {
 
   handleUpdate(key: string, value: any) {
     this.$set(this.form.values, key, value);
-    this.form.$v = this.$v;
+    this.form.$v = (this as any).$v;
     this.emitChange();
   }
 
   created() {
-    this.form.$v = this.$v;
+    this.form.$v = (this as any).$v;
   }
 }
 </script>

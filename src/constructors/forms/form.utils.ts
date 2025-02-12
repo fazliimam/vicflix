@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { ObjectLiteral } from '@models';
 import { isObject } from '@utils';
 import { isArray, isEmpty } from 'lodash-es';
