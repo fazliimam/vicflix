@@ -23,7 +23,7 @@ export const totemXp: Experience = {
     TechnosList.Python,
     TechnosList.Pytorch
   ],
-  year: 202,
+  year: 2024,
   type: ExperienceType.Job,
   duration: differenceInMonths(new Date(2024, 6, 1), new Date(2024, 8, 30)),
   role: 'Data Science Intern',
