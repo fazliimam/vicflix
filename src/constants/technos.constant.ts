@@ -57,10 +57,14 @@ export const TechnosConstant: Skill[] = [
   { title: TechnosList.Angular, logo: 'technos/Angular', color: '#dd1b16', id: nanoid(4) },
   { title: TechnosList.Karma, logo: 'technos/Karma', color: '#429F87', id: nanoid(4) },
   { title: TechnosList.Jasmine, logo: 'technos/Jasmine', color: '#8A4182', id: nanoid(4) },
-  // { title: TechnosList.GitHub, logo: 'technos/GitHub', color: '#181717', id: nanoid(4) },
-  // { title: TechnosList.Git, logo: 'technos/Git', color: '#F05032', id: nanoid(4) },
-  // { title: TechnosList.Docker, logo: 'technos/Docker', color: '#2496ED', id: nanoid(4) },
-  { title: TechnosList.Python, logo: 'technos/Python', color: '#3776AB', id: nanoid(4) }
+  { title: TechnosList.GitHub, logo: 'technos/GitHub', color: '#181717', id: nanoid(4) },
+  { title: TechnosList.Git, logo: 'technos/Git', color: '#F05032', id: nanoid(4) },
+  { title: TechnosList.Docker, logo: 'technos/Docker', color: '#2496ED', id: nanoid(4) },
+  { title: TechnosList.Python, logo: 'technos/Python', color: '#3776AB', id: nanoid(4) },
+  { title: TechnosList.Pytorch, logo: 'technos/PyTorch', color: '#EE4C2B', id: nanoid(4) },
+  { title: TechnosList.Tensorflow, logo: 'technos/Tensorflow', color: '#FF6F20', id: nanoid(4) },
+  { title: TechnosList.Scholar, logo: 'technos/Scholar', color: '#FF6F20', id: nanoid(4) },
+  { title: TechnosList.SKlearn, logo: 'technos/SKlearn', color: '#FF6F20', id: nanoid(4) }
 
 
 ];
