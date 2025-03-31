@@ -26,8 +26,12 @@ export enum TechnosList {
   Gridsome = 'Gridsome',
   GitHub = 'GitHub',
   Git = 'Git',
+  Pytorch = 'Pytorch',
+  Python = 'Python',
+  Tensorflow = 'Tensorflow',
   Docker = 'Docker',
-  Python = 'Python'
+  Scholar = 'Scholar',
+  SKlearn = 'SKlearn'
 }
 
 export const TechnosConstant: Skill[] = [
