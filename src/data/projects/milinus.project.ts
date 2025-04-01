@@ -5,7 +5,7 @@ import { milinusVideos } from '../videos/milinus.videos';
 export const milinusProject: Project = {
   title: 'Milinus Admin',
   picture:
-    'https://firebasestorage.googleapis.com/v0/b/vicflix-2fbe0.appspot.com/o/Pictures%2FProjects%2Fmilinus%2Fmilinus.png?alt=media&token=1a524a27-fb5b-4a01-af27-cacc83872d9e',
+    `url('https://images.unsplash.com/photo-1707343843437-caacff5cfa74?q=80&w=2070&auto=format&fit=crop')`,
   placeholder:
     'https://firebasestorage.googleapis.com/v0/b/vicflix-2fbe0.appspot.com/o/Pictures%2FProjects%2Fmilinus%2Fmilinus_placeholder.png?alt=media&token=5568a432-acbd-46da-a80e-5b41a3c3b121',
   slogan: AppTrads.ProjectDescriptions.Milinus.Slogan,
