@@ -4,14 +4,20 @@ import { Experience } from 'models/xp.model';
 
 export const esgiXp: Experience = {
   id: 'NBnldqJLl',
-  logo: 'https://firebasestorage.googleapis.com/v0/b/vicflix-2fbe0.appspot.com/o/Pictures%2FExperiences%2Fesgi%20logo.png?alt=media&token=a5f5e4b9-c4f2-44be-9aa7-6ceb65b2fcff',
+  logo: 'https://fazliimam.github.io/images/NICS_2.jpg',
   description: `École Supérieure de Génie Informatique`,
-  title: 'ESGI',
-  year: 2015,
-  technos: [],
+  title: 'National Intensive Care Surveillance Unit (NICST)',
+  year: 2021,
+  technos: [
+      TechnosList.Python,
+      TechnosList.SKlearn,
+      TechnosList.Tensorflow,
+      TechnosList.Numpy,
+      TechnosList.Pandas
+    ],
   type: ExperienceType.Studies,
-  duration: differenceInMonths(new Date(2018, 7, 1), new Date(2015, 7, 1)),
-  role: 'Étudiant développeur',
-  links: [{ link: 'https://www.esgi.fr/', title: `Site de l'ESGI` }],
-  location: 'Paris, France',
+  duration: differenceInMonths(new Date(2020, 11, 1), new Date(2021, 6, 1)),
+  role: 'Data Scientist',
+  links: [{ link: 'https://www.linkedin.com/company/national-intensive-care-surveillance-moru?originalSubdomain=lk', title: `NICST` }],
+  location: 'Colombo, Sri Lanka',
 };
