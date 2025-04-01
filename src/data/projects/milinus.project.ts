@@ -5,9 +5,9 @@ import { milinusVideos } from '../videos/milinus.videos';
 export const milinusProject: Project = {
   title: 'Milinus Admin',
   picture:
-    "src/assets/images/backgrounds/making_a_researcher_poster_cropped.jpg",
+    "../../assets/images/backgrounds/making_a_researcher_poster_cropped.jpg",
   placeholder:
-    'src/assets/images/backgrounds/making_a_researcher_poster_cropped.jpg',
+    '../../assets/images/backgrounds/making_a_researcher_poster_cropped.jpg',
   slogan: AppTrads.ProjectDescriptions.Milinus.Slogan,
   description: `Milinus Admin est l'application back office administrateur permettant de gérer et de contrôler le contenu de l'application mobile Milinus.
   Le projet entier comprennait une API, une application mobile et une application web admin.
