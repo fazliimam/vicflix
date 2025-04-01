@@ -78,9 +78,11 @@ export default {
   ProjectDescriptions: {
     Milinus: {
       Slogan: `
-      From building AI models that classify images without training labels to predicting football match outcomes with machine learning, Fazli Imam has always been one step ahead in the world of data science. Whether optimizing direct mail fundraising, engineering NLP-driven systems for real-world industries, or deploying computer vision pipelines, his journey is defined by hands-on innovation.
+      From building AI models that classify images without labelled data to optimizing direct mail fundraising with machine learning, Fazli has always been one step ahead in the world of data science.
 
-      Armed with expertise in Python, PyTorch, SQL, cloud computing, and visualization tools like Tableau and Power BI, Fazli’s career is a masterclass in practical AI applications. But with every project comes a new challenge—can he keep pushing the limits of technology, or will the ever-evolving landscape of AI demand more than just skill?
+      With experience at STAX Inc., a global strategy consulting firm, Fazli has leveraged data science to drive high-stakes investment decisions, uncovering market trends and consumer insights for private equity clients. At ADNOC, the UAE’s leading energy company, he built predictive models to optimize gas flow rates and engineered NLP-driven analytics to extract valuable insights from drilling reports—transforming complex data into strategic business decisions.
+
+      Armed with expertise in Python, PyTorch, SQL, cloud computing, paired with visualization tools like Tableau and Power BI, Fazli’s career is a masterclass in practical AI applications. But with every project comes a new challenge—can he keep pushing the limits of technology, or will the ever-evolving landscape of AI demand more than just skill?
 
       The only real question left is… which company will be smart enough to bag this talent first? 🚀`,
     },
