@@ -83,7 +83,7 @@ export default {
 
     At STAX Inc., a global strategy consulting firm, he transformed data into high-stakes investment insights. At ADNOC, he built predictive models to optimize gas flow rates and engineered NLP-driven analytics to extract critical insights from drilling reports—turning raw data into strategic decisions.
 
-    With each project, he pushes the boundaries of AI-driven problem-solving. The only question is… which company will be smart enough to bag this talent first? 🚀`,
+    With each project, he pushes the boundaries of AI-driven problem-solving. But now, the real question is… which company will be smart enough to bag this talent first? 🚀`,
     },
     Profeel: {
       Slogan: 'Optimize and secure the professionals processes',
