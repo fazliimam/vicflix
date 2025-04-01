@@ -78,7 +78,8 @@ export default {
   ProjectDescriptions: {
     Milinus: {
       Slogan: `
-      From building label-free image classification models to optimizing direct mail fundraising, Fazli Imam has always been one step ahead in data science.
+      
+    From building label-free image classifiers to optimizing direct mail fundraising, Fazli Imam has always been one step ahead in data science.
 
     At STAX Inc., a global strategy consulting firm, he transformed data into high-stakes investment insights. At ADNOC, he built predictive models to optimize gas flow rates and engineered NLP-driven analytics to extract critical insights from drilling reports—turning raw data into strategic decisions.
 
