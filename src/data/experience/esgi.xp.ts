@@ -7,7 +7,9 @@ import { TechnosList } from '@constants';
 export const esgiXp: Experience = {
   id: 'NBnldqJLl',
   logo: 'https://fazliimam.github.io/images/NICS_2.jpg',
-  description: `École Supérieure de Génie Informatique`,
+  description: `
+  • Led exploratory data analysis and data transformation initiatives, preparing clinical trial datasets for analysis to support evidence-based decision-making in healthcare.
+  • Engineered automation scripts to optimize the data mapping process across various systems and formats, enhancing data integration and streamlining workflows.`,
   title: 'National Intensive Care Surveillance Unit (NICST)',
   year: 2021,
   technos: [
