@@ -78,7 +78,7 @@ export default {
   ProjectDescriptions: {
     Milinus: {
       Slogan: `
-      From building AI models that classify images without labelled data to optimizing direct mail fundraising with machine learning, Fazli has always been one step ahead in the world of data science.
+      From building label-free image classification models to optimizing direct mail fundraising, Fazli has always been one step ahead in the world of data science.
 
       With experience at STAX Inc., a global strategy consulting firm, Fazli has leveraged data science to drive high-stakes investment decisions, uncovering market trends and consumer insights for private equity clients. At ADNOC, the UAE’s leading energy company, he built predictive models to optimize gas flow rates and engineered NLP-driven analytics to extract valuable insights from drilling reports—transforming complex data into strategic business decisions.
 
