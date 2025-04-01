@@ -5,7 +5,7 @@ import { Experience } from 'models/xp.model';
 
 export const totemXp: Experience = {
   id: 'jzfjYGK',
-  logo: 'https://fazliimam.github.io/images/ADNOC_2.png',
+  logo: 'https://companieslogo.com/img/orig/ADNOCDIST.AE_BIG-116dd7b2.png?t=1720244490',
   description: `Totem est mon premier emploi en CDI et mon poste actuel.
 
   Totem est une Agence Digitale basée à Paris, spécialisée dans la conception, le design et le développement web et mobile.
@@ -18,7 +18,7 @@ export const totemXp: Experience = {
   
   J'ai pu découvrir et m'améliorer sur beaucoup de technologies, notemment GraphQL, Nuxt, Vue et Typescript.
   Cela m'a permi aussi d'aller plus loin de créer des outils me permettant de travailler plus rapidement et plus surement tout en améliorant l'expérience de développement.`,
-  title: 'Totem',
+  title: 'ADNOC',
   technos: [
     TechnosList.Python,
     TechnosList.Pytorch

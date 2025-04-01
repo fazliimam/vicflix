@@ -32,6 +32,12 @@ export enum TechnosList {
   Docker = 'Docker',
   Scholar = 'Scholar',
   SKlearn = 'SKlearn'
+  Excel = 'Excel',
+  Beautifulsoup = 'Beautifulsoup',
+  Selenium = 'Selenium',
+  Powerpoint = 'Powerpoint',
+  Pandas = 'Pandas',
+  Numpy = 'Numpy'
 }
 
 export const TechnosConstant: Skill[] = [
@@ -64,7 +70,13 @@ export const TechnosConstant: Skill[] = [
   { title: TechnosList.Pytorch, logo: 'technos/PyTorch', color: '#EE4C2B', id: nanoid(4) },
   { title: TechnosList.Tensorflow, logo: 'technos/Tensorflow', color: '#FF6F20', id: nanoid(4) },
   { title: TechnosList.Scholar, logo: 'technos/Scholar', color: '#FF6F20', id: nanoid(4) },
-  { title: TechnosList.SKlearn, logo: 'technos/SKlearn', color: '#FF6F20', id: nanoid(4) }
+  { title: TechnosList.SKlearn, logo: 'technos/SKlearn', color: '#FF6F20', id: nanoid(4) },
+  { title: TechnosList.Excel, logo: 'technos/Excel', color: '#FF6F20', id: nanoid(4) },
+  { title: TechnosList.Beautifulsoup, logo: 'technos/Beautifulsoup', color: '#FF6F20', id: nanoid(4) },
+  { title: TechnosList.Selenium, logo: 'technos/Selenium', color: '#FF6F20', id: nanoid(4) },
+  { title: TechnosList.Powerpoint, logo: 'technos/Powerpoint', color: '#FF6F20', id: nanoid(4) },
+  { title: TechnosList.Pandas, logo: 'technos/Pandas', color: '#FF6F20', id: nanoid(4) },
+  { title: TechnosList.Numpy, logo: 'technos/Numpy', color: '#FF6F20', id: nanoid(4) }
 
 
 ];
