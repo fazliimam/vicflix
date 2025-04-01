@@ -86,7 +86,6 @@
           <ProjectVideoProgress v-if="videoProgress && isMobile" :progress="videoProgress" />
           <h1 class="">{{ project.title }}</h1>
           <div class="flex flex-row items-center mt-3">
-            <span class="text-green font-bold">{{ $t($messages.Projects.Recommended) }}</span>
             <span class="ml-2">{{ project.year }}</span>
             <span class="border-bg9 px-1 py-px ml-2 text-sm border">12+</span>
           </div>

@@ -65,7 +65,7 @@ export const locale: LanguageConfig = {
     Toutes les vidéos sont issues de fausses données de test et ne correspondent pas à des vraies données client.`,
     SeeMore: 'Voir plus',
     SeeLess: 'Voir moins',
-    Recommended: 'Recommandé à 99.9%',
+    // Recommended: 'Recommandé à 99.9%',
     AddToList: 'Ajouter à ma liste',
     RemoveFromList: 'Supprimer de ma liste',
     Episode: 'Épisodes',

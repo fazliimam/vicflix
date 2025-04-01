@@ -23,9 +23,6 @@
               {{ $t($messages.Experience.CurrentPosition) }}
             </span>
           </div>
-          <div class="flex flex-row items-center mt-3">
-            <span class="text-green font-bold">{{ $t($messages.Projects.Recommended) }}</span>
-          </div>
           <div
             ref="descriptionRef"
             v-if="experience.description"

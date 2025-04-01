@@ -62,7 +62,7 @@ export default {
     All videos are based on fake data and are not assimilitated to real user information.`,
     SeeMore: 'See more',
     SeeLess: 'See less',
-    Recommended: '99.9% recommended',
+    // Recommended: '99.9% recommended',
     AddToList: 'Add to my list',
     RemoveFromList: 'Remove from my list',
     Episode: 'Episodes',
