@@ -26,4 +26,4 @@ export const featuredProjects = [
 
 export const coverProject = milinusProject;
 
-export const popularProject = shuffle(allProjects);
+// export const popularProject = shuffle(allProjects);

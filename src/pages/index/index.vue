@@ -21,9 +21,6 @@
     <component :is="isDesktop ? 'ProjectList' : 'MobileProjectList'" :projects="featuredProjects">
       {{ $t($messages.Home.Featured) }}
     </component>
-    <component :is="isDesktop ? 'ProjectList' : 'MobileProjectList'" :projects="popularProjects">
-      {{ $t($messages.Home.Popular) }}
-    </component>
     <component :is="isDesktop ? 'ProjectList' : 'MobileProjectList'" :projects="skills">
       {{ $t($messages.Home.Skills) }}
     </component>
@@ -36,7 +33,7 @@
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator';
 import { CoverBanner, MobileProjectList, ProjectList } from '@components';
-import { coverProject, popularProject, allProjects, allExperiences, featuredProjects } from '@data';
+import { coverProject, allProjects, allExperiences, featuredProjects } from '@data';
 import { BreakpointMixin } from '@mixins';
 import { BreakPointsValues, Project } from '@models';
 import { VideoProgressModule } from '@store';
@@ -58,7 +55,6 @@ export default class Home extends BreakpointMixin {
   }
 
   public coverProject = coverProject;
-  public popularProjects = popularProject;
   public allExperiences = allExperiences;
   public featuredProjects = featuredProjects;
   public skills = TechnosConstant.slice()

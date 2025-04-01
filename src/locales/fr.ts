@@ -29,7 +29,7 @@ export const locale: LanguageConfig = {
   Home: {
     ContinueWithProfile: `Reprendre avec votre profil`,
     MyList: 'Ma Liste',
-    Popular: 'Projets populaires en ce moment',
+    // Popular: 'Projets populaires en ce moment',
     Featured: 'Projets en vedette',
     Skills: 'Compétences les plus utilisées',
     All: 'Tous les projets',

@@ -26,7 +26,7 @@ export default {
   Home: {
     ContinueWithProfile: `Continue with your profile`,
     MyList: 'My List',
-    Popular: 'Popular projects',
+    // Popular: 'Popular projects',
     Featured: 'Featured projects',
     Skills: 'Most used skills',
     All: 'All projects',
