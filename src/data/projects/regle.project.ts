@@ -7,7 +7,7 @@ export const regleProject: Project = {
     'https://fazliimam.github.io/images/nola_arc.png',
   placeholder:
     'https://fazliimam.github.io/images/nola_arc.png',
-  slogan: '📏 Typescript-first model-based form validation library for Vue 3',
+  slogan: '📏 Current SOTA in label-free classification of Remote-Sensing images',
   description: `
   - Engineered and deployed a label-free adaptation method (ALP-RS) to enhance remote sensing scene classification,
 eliminating the need for labeled datasets.
@@ -27,5 +27,5 @@ pseudo labels and adapt CLIP for remote sensing settings.
   type: [ProjectType.Library],
   id: 'VjLD93nK',
   technos: [TechnosList.Pytorch, TechnosList.Python, TechnosList.Pandas, TechnosList.Numpy],
-  context: ProjectContext.Personal,
+  context: ProjectContext.MBZUAI,
 };

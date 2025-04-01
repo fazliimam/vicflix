@@ -54,13 +54,14 @@ export interface ProjectVideo {
 export enum ProjectContext {
   Totem = 'Totem',
   Personal = 'Personel',
+  MBZUAI = 'MBZUAI',
 }
 
 export enum ProjectType {
   Site = 'Website',
   App = 'App',
   Mobile = 'Mobile',
-  Library = 'Library',
+  Library = 'Thesis',
 }
 
 //! Skill
