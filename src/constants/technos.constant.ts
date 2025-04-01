@@ -67,7 +67,7 @@ export const TechnosConstant: Skill[] = [
   { title: TechnosList.Git, logo: 'technos/Git', color: '#F05032', id: nanoid(4) },
   { title: TechnosList.Docker, logo: 'technos/Docker', color: '#2496ED', id: nanoid(4) },
   { title: TechnosList.Python, logo: 'technos/Python', color: '#3776AB', id: nanoid(4) },
-  { title: TechnosList.Pytorch, logo: 'technos/PyTorch', color: '#F7931E', id: nanoid(4) },
+  { title: TechnosList.Pytorch, logo: 'technos/Pytorch', color: '#F7931E', id: nanoid(4) },
   { title: TechnosList.Tensorflow, logo: 'technos/Tensorflow', color: '#FF6F20', id: nanoid(4) },
   { title: TechnosList.Scholar, logo: 'technos/Scholar', color: '#FF6F20', id: nanoid(4) },
   { title: TechnosList.SKlearn, logo: 'technos/SKlearn', color: '#F7931E', id: nanoid(4) },
