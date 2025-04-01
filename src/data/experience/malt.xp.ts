@@ -11,7 +11,7 @@ export const maltXp: Experience = {
   • Developed and deployed a novel evaluation dataset to benchmark the performance of vision-language models in visual-temporal reasoning.
   • Collaborated with external research groups and interdisciplinary teams to advance research on vision-language models.`,
 
-  title: 'MBZUAI',
+  title: 'Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)',
   technos: [TechnosList.Python, TechnosList.Pytorch, TechnosList.Tensorflow, TechnosList.SKlearn, TechnosList.Scholar],
   year: 2024,
   type: ExperienceType.Job,
