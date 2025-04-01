@@ -26,7 +26,7 @@ export const oceXp: Experience = {
     TechnosList.Excel,
     TechnosList.Powerpoint,
   ],
-  year: 2021,
+  year: 2022,
   type: ExperienceType.Job,
   duration: differenceInMonths(new Date(2021, 7, 1), new Date(2022, 7, 1)),
   role: 'Data Scientist',
