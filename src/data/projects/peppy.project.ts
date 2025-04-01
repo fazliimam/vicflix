@@ -28,7 +28,7 @@ export const peppyProject: Project = {
   type: [ProjectType.App, ProjectType.Mobile],
   info: AppTrads.Projects.InfoWarning,
   technos: [
-    TechnosList.Vue,
+    TechnosList.Pytorch,
     TechnosList.Typescript,
     TechnosList.GraphQL,
     TechnosList.Stripe,

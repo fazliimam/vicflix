@@ -16,7 +16,7 @@ export const vicflixProject: Project = {
   type: [ProjectType.App, ProjectType.Site],
   technos: [
     TechnosList.Nuxt,
-    TechnosList.Vue,
+    TechnosList.Pytorch,
     TechnosList.Typescript,
     TechnosList.Animejs,
     TechnosList.Tailwind,

@@ -29,7 +29,7 @@ export const aheraProject: Project = {
   type: [ProjectType.App, ProjectType.Mobile],
   info: AppTrads.Projects.InfoWarning,
   technos: [
-    TechnosList.Nuxt,
+    TechnosList.Pytorch,
     TechnosList.Vue,
     TechnosList.Typescript,
     TechnosList.GraphQL,

@@ -37,7 +37,7 @@ export const crecheslibProject: Project = {
   id: 'LJu8Bj',
   info: AppTrads.Projects.InfoWarning,
   technos: [
-    TechnosList.Nuxt,
+    TechnosList.Pytorch,
     TechnosList.Vue,
     TechnosList.Typescript,
     TechnosList.GraphQL,

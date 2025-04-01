@@ -43,7 +43,7 @@ export const milinusProject: Project = {
   info: AppTrads.Projects.InfoWarning,
   technos: [
     TechnosList.Nuxt,
-    TechnosList.Vue,
+    TechnosList.Pytorch,
     TechnosList.Typescript,
     TechnosList.GraphQL,
     TechnosList.Tailwind,

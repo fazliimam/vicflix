@@ -57,6 +57,6 @@ export const sgtsProject: Project = {
   ],
   type: [ProjectType.Library],
   id: 'MNJ9OK3jn',
-  technos: [TechnosList.Typescript, TechnosList.GraphQL, TechnosList.Jest, TechnosList.VuePress],
+  technos: [TechnosList.Pytorch, TechnosList.GraphQL, TechnosList.Jest, TechnosList.VuePress],
   context: ProjectContext.Personal,
 };

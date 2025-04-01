@@ -36,7 +36,7 @@ export const kazeProject: Project = {
   type: [ProjectType.App, ProjectType.Site],
   info: AppTrads.Projects.InfoWarning,
   technos: [
-    TechnosList.Nuxt,
+    TechnosList.Pytorch,
     TechnosList.Vue,
     TechnosList.Typescript,
     TechnosList.GraphQL,

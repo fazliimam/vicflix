@@ -32,6 +32,6 @@ export const bigupProject: Project = {
   ],
   type: [ProjectType.App, ProjectType.Site, ProjectType.Mobile],
   info: AppTrads.Projects.InfoWarning,
-  technos: [TechnosList.Vue, TechnosList.Typescript, TechnosList.GraphQL, TechnosList.Stripe],
+  technos: [TechnosList.Pytorch, TechnosList.Typescript, TechnosList.GraphQL, TechnosList.Stripe],
   context: ProjectContext.Totem,
 };
