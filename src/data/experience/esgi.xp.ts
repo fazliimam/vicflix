@@ -1,6 +1,8 @@
 import { ExperienceType } from '@models';
 import { differenceInMonths } from 'date-fns';
 import { Experience } from 'models/xp.model';
+import { TechnosList } from '@constants';
+
 
 export const esgiXp: Experience = {
   id: 'NBnldqJLl',

@@ -31,7 +31,7 @@ export enum TechnosList {
   Tensorflow = 'Tensorflow',
   Docker = 'Docker',
   Scholar = 'Scholar',
-  SKlearn = 'SKlearn'
+  SKlearn = 'SKlearn',
   Excel = 'Excel',
   Beautifulsoup = 'Beautifulsoup',
   Selenium = 'Selenium',
