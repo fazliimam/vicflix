@@ -1,11 +1,12 @@
 import { TechnosList } from '@constants';
 import { AppTrads, Project, ProjectContext, ProjectType } from '@models';
 import { milinusVideos } from '../videos/milinus.videos';
+import { milinusImage } from '../videos/milinus';
+
 
 export const milinusProject: Project = {
   title: 'Milinus Admin',
-  picture:
-  'public/milinus.png',
+  picture: milinusImage,  
   placeholder:
     'https://firebasestorage.googleapis.com/v0/b/vicflix-2fbe0.appspot.com/o/Pictures%2FProjects%2Fmilinus%2Fmilinus_placeholder.png?alt=media&token=5568a432-acbd-46da-a80e-5b41a3c3b121',
   slogan: AppTrads.ProjectDescriptions.Milinus.Slogan,
