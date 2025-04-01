@@ -78,10 +78,11 @@ export default {
   ProjectDescriptions: {
     Milinus: {
       Slogan: `
-      From building AI models that classify remote sensing images without labels to predicting football match outcomes with machine learning, Fazli Imam has always been one step ahead in the world of data science. Whether optimizing direct mail fundraising, engineering NLP-driven systems for real-world industries, or deploying computer vision pipelines, his journey is defined by hands-on innovation.
+      From building AI models that classify images without training labels to predicting football match outcomes with machine learning, Fazli Imam has always been one step ahead in the world of data science. Whether optimizing direct mail fundraising, engineering NLP-driven systems for real-world industries, or deploying computer vision pipelines, his journey is defined by hands-on innovation.
 
-Armed with expertise in Python, PyTorch, SQL, cloud computing, and visualization tools like Tableau and Power BI, Fazli’s career is a masterclass in practical AI applications. But with every project comes a new challenge—can he keep pushing the limits of technology, or will the ever-evolving landscape of AI demand more than just skill?
-      `,
+      Armed with expertise in Python, PyTorch, SQL, cloud computing, and visualization tools like Tableau and Power BI, Fazli’s career is a masterclass in practical AI applications. But with every project comes a new challenge—can he keep pushing the limits of technology, or will the ever-evolving landscape of AI demand more than just skill?
+
+      The only real question left is… which company will be smart enough to bag this talent first? 🚀`,
     },
     Profeel: {
       Slogan: 'Optimize and secure the professionals processes',
