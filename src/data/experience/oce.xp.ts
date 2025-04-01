@@ -26,8 +26,8 @@ export const oceXp: Experience = {
   ],
   year: 2022,
   type: ExperienceType.Job,
-  duration: differenceInMonths(new Date(2021, 7, 1), new Date(2022, 7, 1)),
+  duration: differenceInMonths(new Date(2021, 7, 1), new Date(2022, 7, 1))+ 1,
   role: 'Data Scientist',
-  links: [{ link: 'https://www.stax.com/colombo', title: 'Stax' }],
+  // links: [{ link: 'https://www.stax.com/colombo', title: 'Stax' }],
   location: 'Colombo, Sri Lanka, France',
 };
