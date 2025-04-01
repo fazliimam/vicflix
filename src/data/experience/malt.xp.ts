@@ -13,12 +13,12 @@ export const maltXp: Experience = {
   • Collaborated with external research groups and interdisciplinary teams to advance research on vision-language models.`,
 
   title: 'Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)',
-  technos: [TechnosList.Python, TechnosList.Pytorch, TechnosList.Tensorflow, TechnosList.SKlearn, TechnosList.Scholar],
+  technos: [TechnosList.Python, TechnosList.Pytorch, TechnosList.Tensorflow, TechnosList.SKlearn],
   year: 2024,
   type: ExperienceType.Job,
   duration: differenceInMonths(new Date(), new Date(2024, 7, 1)) + 1,
   currentPosition: true,
   role: 'Machine Learning Researcher',
-  links: [{ link: 'https://fazliimam.github.io/', title: 'Site MBZUAI' }],
+  links: [{ link: 'https://scholar.google.com/citations?user=ndzhAkkAAAAJ&hl', title: 'Research Publications' }],
   location: 'Abu Dhabi, UAE',
 };
