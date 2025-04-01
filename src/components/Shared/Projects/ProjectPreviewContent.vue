@@ -140,14 +140,10 @@
         <div
           class=" flex-0 sm:flex-row sm:w-full sm:py-4 -sm:sticky -sm:top-10 sm:items-center flex flex-col w-1/3 ml-2 text-sm"
         >
-          <div class="sm:mr-2 relative mb-4 mr-2">
-            <span class="text-bg10">{{ $t($messages.Projects.Director) }}: </span>
-            <span>Victor Garcia</span>
-          </div>
-          <div class="relative mb-4 mr-2">
-            <span class="text-bg10">Genre: </span>
-            <span>{{ project.type.join(', ') }}</span>
-          </div>
+          
+          
+
+          
           <div class="relative mb-4 mr-2">
             <span class="text-bg10">{{ $t($messages.Projects.Context) }}: </span>
             <span>{{ project.context }}</span>

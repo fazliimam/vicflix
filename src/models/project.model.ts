@@ -54,7 +54,7 @@ export interface ProjectVideo {
 export enum ProjectContext {
   Totem = 'Totem',
   Personal = 'Personel',
-  MBZUAI = 'MBZUAI',
+  MBZUAI_thesis = "Masters's Thesis",
 }
 
 export enum ProjectType {

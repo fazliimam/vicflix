@@ -27,5 +27,5 @@ pseudo labels and adapt CLIP for remote sensing settings.
   type: [ProjectType.Library],
   id: 'VjLD93nK',
   technos: [TechnosList.Pytorch, TechnosList.Python, TechnosList.Pandas, TechnosList.Numpy],
-  context: ProjectContext.MBZUAI,
+  context: ProjectContext.MBZUAI_thesis,
 };
