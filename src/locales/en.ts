@@ -78,13 +78,11 @@ export default {
   ProjectDescriptions: {
     Milinus: {
       Slogan: `
-      From building label-free image classification models to optimizing direct mail fundraising, Fazli has always been one step ahead in the world of data science.
+      From building label-free image classification models to optimizing direct mail fundraising, Fazli Imam has always been one step ahead in data science.
 
-      With experience at STAX Inc., a global strategy consulting firm, Fazli has leveraged data science to drive high-stakes investment decisions, uncovering market trends and consumer insights for private equity clients. At ADNOC, the UAE’s leading energy company, he built predictive models to optimize gas flow rates and engineered NLP-driven analytics to extract valuable insights from drilling reports—transforming complex data into strategic business decisions.
+    At STAX Inc., a global strategy consulting firm, he transformed data into high-stakes investment insights. At ADNOC, he built predictive models to optimize gas flow rates and engineered NLP-driven analytics to extract critical insights from drilling reports—turning raw data into strategic decisions.
 
-      Armed with expertise in Python, PyTorch, SQL, cloud computing, paired with visualization tools like Tableau and Power BI, Fazli’s career is a masterclass in practical AI applications. But with every project comes a new challenge—can he keep pushing the limits of technology, or will the ever-evolving landscape of AI demand more than just skill?
-
-      The only real question left is… which company will be smart enough to bag this talent first? 🚀`,
+    With each project, he pushes the boundaries of AI-driven problem-solving. The only question is… which company will be smart enough to bag this talent first? 🚀`,
     },
     Profeel: {
       Slogan: 'Optimize and secure the professionals processes',
