@@ -2,48 +2,30 @@ import { TechnosList } from '@constants';
 import { Project, ProjectContext, ProjectType } from '@models';
 
 export const regleProject: Project = {
-  title: 'regle',
+  title: 'Label-free Adaptation of CLIP for Remote Sensing',
   picture:
-    'https://github.com/victorgarciaesgi/regle/blob/main/.github/images/regle-github-banner.png?raw=true',
+    'https://fazliimam.github.io/images/nola_arc.png',
   placeholder:
-    'https://github.com/victorgarciaesgi/regle/blob/main/.github/images/regle-github-banner.png?raw=true',
+    'https://fazliimam.github.io/images/nola_arc.png',
   slogan: '📏 Typescript-first model-based form validation library for Vue 3',
-  description: `Regle (French word for "rule") is a Typescript-first form validation library made for Vue 3.
-I'm a lover and long-time user of Vuelidate API, so Regle's is greatly inspired by it.
-
-Regle is about bringing type safety and great DX to simple or complex Form.
-It's all data-based and headless, the validation matches the data structure so you can separate UI and validations.
-
-Declare your form rules inside a component or a Pinia store and use it wherever you like.
+  description: `
+  - Engineered and deployed a label-free adaptation method (ALP-RS) to enhance remote sensing scene classification,
+eliminating the need for labeled datasets.
+  - Explored the efficacy of auto-labelled prompt tuning by leveraging contextual knowledge from LLM to generate
+pseudo labels and adapt CLIP for remote sensing settings.
   `,
   logo: 'github.png',
   videos: [],
   year: 2024,
   links: [
     {
-      title: 'Github homepage',
-      link: 'https://github.com/victorgarciaesgi/regle',
+      title: 'Thesis',
+      link: 'https://dclibrary.mbzuai.ac.ae/mletd/42/',
     },
   ],
-  badges: [
-    {
-      img: 'https://img.shields.io/npm/v/@regle/core.svg',
-      link: 'https://www.npmjs.com/package/@regle/core',
-    },
-    {
-      img: 'https://img.shields.io/npm/dm/@regle/core.svg',
-      link: 'https://www.npmjs.com/package/@regle/core',
-    },
-    {
-      img: 'https://img.shields.io/npm/dt/@regle/core.svg',
-      link: 'https://www.npmjs.com/package/@regle/core',
-    },
-    {
-      img: 'https://img.shields.io/npm/l/@regle/core.svg',
-    },
-  ],
+  
   type: [ProjectType.Library],
   id: 'VjLD93nK',
-  technos: [TechnosList.Typescript, TechnosList.Vue, TechnosList.Nuxt],
+  technos: [TechnosList.Pytorch, TechnosList.Python, TechnosList.Pandas, TechnosList.Numpy],
   context: ProjectContext.Personal,
 };
