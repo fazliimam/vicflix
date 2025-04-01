@@ -16,7 +16,7 @@ export const totemXp: Experience = {
   ],
   year: 2024,
   type: ExperienceType.Job,
-  duration: differenceInMonths(new Date(2024, 6, 1), new Date(2024, 8, 30)),
+  duration: differenceInMonths(new Date(2024, 6, 1), new Date(2024, 8, 1)),
   role: 'Data Science Intern',
   links: [{ link: 'https://github.com/fazlicodes/ADNOC_NLP_QuestionAndAnswering_System', title: 'Internship Project' }],
   location: 'Abu Dhabi, UAE',
