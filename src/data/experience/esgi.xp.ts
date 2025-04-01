@@ -20,7 +20,7 @@ export const esgiXp: Experience = {
     TechnosList.Pandas
   ],
   type: ExperienceType.Studies,
-  duration: differenceInMonths(new Date(2020, 11, 1), new Date(2021, 6, 1)),
+  duration: differenceInMonths(new Date(2021, 6, 1), new Date(2020, 11, 1)),
   role: 'Data Scientist',
   // links: [{ link: 'https://www.linkedin.com/company/national-intensive-care-surveillance-moru?originalSubdomain=lk', title: `NICST` }],
   location: 'Colombo, Sri Lanka',

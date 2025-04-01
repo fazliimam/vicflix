@@ -10,7 +10,7 @@ export const oceXp: Experience = {
   • Conducted due diligence for private equity firms, evaluating the potential of investments through data-driven insights and market analysis to support strategic decision-making.
   • Engineered data pipelines to scrape reviews and listings from major websites, providing a comprehensive analysis of the client’s market, competitors, and consumer sentiment, facilitating actionable business intelligence.
   • Synthesized insights from diverse data sources, including web scraping and surveys, to deliver strategic recommendations that helped clients make informed investment decisions.`
- ,
+  ,
   title: 'Stax Inc',
   technos: [
     TechnosList.Python,
@@ -26,7 +26,7 @@ export const oceXp: Experience = {
   ],
   year: 2022,
   type: ExperienceType.Job,
-  duration: differenceInMonths(new Date(2021, 7, 1), new Date(2022, 7, 1))+ 1,
+  duration: differenceInMonths(new Date(2022, 7, 1), new Date(2021, 7, 1)),
   role: 'Data Scientist',
   // links: [{ link: 'https://www.stax.com/colombo', title: 'Stax' }],
   location: 'Colombo, Sri Lanka, France',
